@@ -1,6 +1,6 @@
 # MySims Hashlists
 
-Hashlists are named after the full game name (for example, `mysims-cozy-bundle.hashlist` for MySims Cozy Bundle). Each line contains a hashed filename followed by its unhashed name.
+Hashlists are named after the full game name (for example, `mysims-cozy-bundle.hashlist` for MySims Cozy Bundle). Each line contains a hashed filename followed by its unhashed name. Example: `0x00000000!0xda00dd498ceaa11a.0xf3593628 Fountain_AudioDef.xml`, a space inbetween with a newline at the end.
 
 - **Unpruned** (`.hashlist`) includes candidate names, even when the corresponding files are not present in the game.
 - **Pruned** (`.hashlist.pruned`) contains only entries whose hashed or unhashed filename was found in the scanned game data folder.
